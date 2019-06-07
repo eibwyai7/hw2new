@@ -24,7 +24,7 @@ for i in range(0, n):
     for j in range(0, n):
         c = 0
         for k in range(0, n):
-            c += A[i][k] * B[k][j]
+            c[i][j] += ....
         row.append(c)
     res.append(row)
 c = numpy.array(res)
